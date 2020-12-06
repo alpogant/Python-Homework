@@ -41,6 +41,8 @@ else:
             print("Welcome")
         else:
             print("Please try again later")
+            while True:
+                  input()
 
 print("Courses: Mathematics(0), Physiscs(1), Chemistry(2), Engineering Ethics(3), Introduction to Control Engineering(4)")
 print("You must write values which are given in phranteses for course selection")
